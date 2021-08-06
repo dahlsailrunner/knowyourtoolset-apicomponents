@@ -3,6 +3,8 @@ _[![NuGet version](https://img.shields.io/nuget/v/KnowYourToolset.ApiComponents.
 
 # Getting Started
 
+Simple API error hanlder.  More details coming.
+
 
 # Contributing
 

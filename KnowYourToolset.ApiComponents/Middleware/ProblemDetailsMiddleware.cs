@@ -40,7 +40,7 @@ namespace KnowYourToolset.ApiComponents.Middleware
         private static Task HandleExceptionAsync(HttpContext context, Exception exception, ProblemDetailsOptions opts)
         {
             var error = new ProblemDetails
-            {
+            { 
                 Instance = Guid.NewGuid().ToString(),
                 Title = "An error occurred in the API.  Please use the instance and contact our support team if the problem persists."
             };
