@@ -5,7 +5,7 @@ _[![NuGet version](https://img.shields.io/nuget/v/KnowYourToolset.ApiComponents.
 The features in this `ApiComponents` package are:
 
 * **[ProblemDetails](https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.mvc.problemdetails?view=aspnetcore-5.0) middleware** that can be used by API projects and easily return a customizable `ProblemDetails` 
-object* when errors (unhandled exceptions) occur
+object when errors (unhandled exceptions) occur
 
 ### Using the ProblemDetails middleware
 To use the middleware for exception handling, simply call the `UseProblemDetailsHandler` extension method in the `Configure` method in `Startup.cs`.
