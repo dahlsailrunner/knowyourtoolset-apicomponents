@@ -47,7 +47,7 @@ namespace KnowYourToolset.ApiComponents.Middleware
 
             var statusCode = opts.AddResponseDetails?.Invoke(context, exception, error);
             statusCode ??= HttpStatusCode.InternalServerError;
-
+            error.Status = (int) statusCode;
             Log.ForContext("ErrorId", error.Instance)
                 .Error(exception, "An exception was caught in the API request pipeline");
 
