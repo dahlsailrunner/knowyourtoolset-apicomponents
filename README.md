@@ -39,7 +39,7 @@ private HttpStatusCode CustomizeResponse(HttpContext httpContext, Exception exce
 }
 ```
 
-** Sample:** A sample API that uses this is the [KnowYourToolset.BackEnd template](https://github.com/dahlsailrunner/knowyourtoolset-templates/tree/main/templates/KnowYourToolset.BackEnd) in the `KnowYourToolset.Templates` package. 
+**Sample:** A sample API that uses this is the [KnowYourToolset.BackEnd template](https://github.com/dahlsailrunner/knowyourtoolset-templates/tree/main/templates/KnowYourToolset.BackEnd) in the `KnowYourToolset.Templates` package. 
 You can create a project using this template if you want to experiment with it.
 
 # Contributing
