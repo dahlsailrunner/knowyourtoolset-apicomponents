@@ -6,6 +6,7 @@
     <Description>Simple API components to help your ASP.NET Core+ API projects</Description>
     <PackageLicenseExpression>MS-PL</PackageLicenseExpression>
     <PackageReadme>README.md</PackageReadme>
+    <PackageIcon>icon.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,7 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\README.md" Pack="true" PackagePath="\" /> 
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+    <None Include="icon.png" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
 </Project>
